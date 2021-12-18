@@ -2,27 +2,15 @@ import React from 'react';
 import './styles/main.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Header} from './components/Header';
-import {Slider} from './components/Slider';
-import {Services} from './components/Services';
-import {Products} from './components/Products';
+import {RoutesTree} from './components/RoutesTree';
 import {Footer} from './components/Footer';
-import {NewsLetter} from './components/NewsLetter';
-import {Counter} from './components/Counter';
-import {HappyClient} from './components/HappyClient';
 
 function App() {
 
   return (
     <>
     <Header/>
-    <Slider/>
-    <Services/>
-    <Products/>
-    <HappyClient/>
-    <Products/>
-    
-    <Counter/>
-    <NewsLetter/>
+    <RoutesTree/>
     <Footer/>
    </>
   );
@@ -33,3 +21,5 @@ export default App;
 
 
 // https://technext.github.io/shop/
+//https://reactrouter.com/docs/en/v6/getting-started/concepts#defining-routes
+//https://reactjs.org/docs/getting-started.html
